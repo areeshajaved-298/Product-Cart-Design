@@ -1,0 +1,38 @@
+body{
+  font-family: Arial, sans-serif;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  cursor: zoom-in;
+}
+h4{
+    color: brown;
+}
+.through-line{
+    line-height: 0px;
+    text-decoration: line-through;
+}
+.Cart-Design{
+  border: 2px solid white;
+  padding: 30px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+button{
+  background-color: brown;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+button:hover{
+  background-color: black;
+}
